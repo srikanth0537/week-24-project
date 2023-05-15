@@ -2,8 +2,8 @@
 
 terraform {
   backend "s3" {
-    bucket = "jenkins-bucket43982789"
+    bucket = "marvel-tf-second-test-bucket"
     key    = "remote.tfstate"
-    region = "us-east-1"
+    region = "ap-south-1"
   }
 }
